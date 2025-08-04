@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: #f5f5f5;
+  font-size: 3rem;
+  padding: 8.5px;
+  display: flex;
+  justify-content: center;
+}
+
+nav img {
+  height: 90px;
+  width: 90px;
+}
+
+section {
+  display: flex;
+}
+
+#container1,
+#container2 {
+  width: 50%;
+  border-right: 3px solid black;
+  height: 70vh;
+}
+
+#problem_text {
+  font-size: 2rem;
+  margin: auto;
+  text-align: center;
+}
+
+#button-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
